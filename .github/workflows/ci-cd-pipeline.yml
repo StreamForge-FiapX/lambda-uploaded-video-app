@@ -28,7 +28,7 @@ jobs:
 
     steps:
       - name: Download source code artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: source-code
 
@@ -43,7 +43,7 @@ jobs:
 
     steps:
       - name: Download source code artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: source-code
 
@@ -69,7 +69,7 @@ jobs:
 
     steps:
       - name: Download Lambda Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: lambda-zip
 
